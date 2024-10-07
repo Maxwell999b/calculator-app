@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "React Calculator",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://calculator-app-five-kappa.vercel.app/android-chrome-512x512.png",
         width: 1200,
         height: 630,
         alt: "React Calculator - Modern Web Application",
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="https://calculator-app-five-kappa.vercel.app//android-chrome-512x512.png" />
+        <meta property="og:image" content="https://calculator-app-five-kappa.vercel.app/android-chrome-512x512.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
