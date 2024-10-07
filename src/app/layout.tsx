@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Maxwell999b" }],
   creator: "Maxwell999b",
   publisher: "React Calculator",
-  metadataBase: new URL("https://your-calculator-app.vercel.app"),
+  metadataBase: new URL("https://calculator-app-five-kappa.vercel.app/"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://your-calculator-app.vercel.app",
+    url: "https://calculator-app-five-kappa.vercel.app/",
     title: "React Calculator - Modern Web Calculator",
     description:
       "A feature-rich calculator application with expression history, keyboard support, and a sleek dark mode interface.",
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta property="og:image" content="https://your-calculator-app.vercel.app/android-chrome-512x512.png" />
+        <meta property="og:image" content="https://calculator-app-five-kappa.vercel.app//android-chrome-512x512.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
