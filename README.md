@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React Calculator App
+
+A modern, responsive calculator application built with React and Next.js, featuring a clean UI and comprehensive functionality.
+
+![Calculator App Screenshot](public/og-image.png)
+
+## Features
+
+- 🧮 Standard arithmetic operations
+- 📝 Expression history tracking
+- ⌨️ Keyboard support
+- 🔢 Exponential notation for large numbers
+- ↩️ Backspace functionality
+- 🕒 Calculation history viewer
+- 🎨 Dark mode UI
+
+## Technologies Used
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Heroicons
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/react-calculator.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd react-calculator
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the calculator.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Click the number buttons or use your keyboard to input numbers
+- Use operators (+, -, \*, /, ^) for calculations
+- Press Enter or '=' to calculate
+- Use Backspace to delete the last input
+- Press Escape or 'C' to clear all
+- Click the clock icon to view calculation history
 
-## Learn More
+## Keyboard Shortcuts
 
-To learn more about Next.js, take a look at the following resources:
+- `0-9`: Input numbers
+- `+`, `-`, `*`, `/`, `^`: Operators
+- `Enter` or `=`: Calculate
+- `Backspace`: Delete last input
+- `Escape`: Clear all
+- `(`, `)`: Parentheses
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- [Heroicons](https://heroicons.com/) for the beautiful icons
+- [Tailwind CSS](https://tailwindcss.com/) for the styling
